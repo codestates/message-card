@@ -14,22 +14,20 @@ let result_3 = document.querySelector('#result_3');
 let result_4 = document.querySelector('#result_4');
 
 start_btn.onclick = function startHandler () {
-    start_page.style.display = 'none';
-    step_1.style.display = 'block';
+    // ! (4단계) 시작페이지에서 start 버튼을 클릭했을 때 실행되는 코드입니다.
+    
 }
 
 step_1_A.onclick = function step1_A_Answer () {
     result.push('1-A')
+    // ! (4단계) Step_1 페이지에서 A 선택지를 클릭했을 때 실행되는 코드입니다.
 
-    step_1.style.display = 'none';
-    step_2.style.display = 'block';
 }
 
 step_1_B.onclick = function step1_B_Answer () {
     result.push('1-B')
+    // ! (4단계) Step_1 페이지에서 B 선택지를 클릭했을 때 실행되는 코드입니다.
 
-    step_1.style.display = 'none';
-    step_2.style.display = 'block';
 }
 
 step_2_A.onclick = function step2_A_Answer () {

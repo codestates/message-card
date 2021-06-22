@@ -1,5 +1,6 @@
 body {
     font-family: 'Nanum Myeongjo', serif;
+    color: #1F9AE0;
 }
 
 section {
@@ -9,12 +10,45 @@ section {
 
 .desc-for-student  {
     text-align: center;
+    color: black;
 }
 
+/*! 시작 페이지 */
 #start_page {
     padding-top: 8%;
     display: flex;
     flex-direction: column;
+}
+/*! (3단계) Step_1 페이지 */
+#step_1 {
+}
+
+/*! (3단계) Step_2 페이지 */
+#step_2 {
+}
+
+/*! (3단계) 결과 1 페이지 */
+#result_1 {
+    text-align: center;
+    margin: 50px auto;
+}
+
+/*! (3단계) 결과 2 페이지 */
+#result_2 {
+    text-align: center;
+    margin: 50px auto;
+}
+
+/*! (3단계) 결과 3 페이지 */
+#result_3 {
+    text-align: center;
+    margin: 50px auto;
+}
+
+/*! (3단계) 결과 4 페이지 */
+#result_4 {
+    text-align: center;
+    margin: 50px auto;
 }
 
 .title-box {
@@ -82,15 +116,10 @@ section {
 
 .footer {
     position: fixed;
-    margin: 0 auto;
     top: 95%;
-    left: 0;
-    right: 0;    
+    left: 50%;
+    transform: translate(-50%, 0);
     color: black;
-}
-
-#step_1 {
-    display: none;
 }
 
 .step-box {
@@ -128,10 +157,6 @@ section {
     cursor: grab;
 }
 
-#step_2 {
-    display: none;
-}
-
 .result-box {
     margin: 40px auto;
     width: 30%;
@@ -150,34 +175,6 @@ section {
     border: 1px solid #1F9AE0;
     padding: 10px;
     text-align: center;
-}
-
-#result_1 {
-    display: none;
-    color: #1F9AE0;
-    text-align: center;
-    margin: 50px auto;
-}
-
-#result_2 {
-    display: none;
-    color: #1F9AE0;
-    text-align: center;
-    margin: 50px auto;
-}
-
-#result_3 {
-    display: none;
-    color: #1F9AE0;
-    text-align: center;
-    margin: 50px auto;
-}
-
-#result_4 {
-    display: none;
-    color: #1F9AE0;
-    text-align: center;
-    margin: 50px auto;
 }
 
 @media screen and (max-width:400px) {
