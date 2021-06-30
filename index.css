@@ -13,40 +13,40 @@ section {
     color: black;
 }
 
-/*! 시작 페이지 */
 #start_page {
     padding-top: 8%;
     display: flex;
     flex-direction: column;
 }
-/*! (3단계) Step_1 페이지 */
+
 #step_1 {
+    display: none;
 }
 
-/*! (3단계) Step_2 페이지 */
 #step_2 {
+    display: none;
 }
 
-/*! (3단계) 결과 1 페이지 */
 #result_1 {
+    display: none;
     text-align: center;
     margin: 50px auto;
 }
 
-/*! (3단계) 결과 2 페이지 */
 #result_2 {
+    display: none;
     text-align: center;
     margin: 50px auto;
 }
 
-/*! (3단계) 결과 3 페이지 */
 #result_3 {
+    display: none;
     text-align: center;
     margin: 50px auto;
 }
 
-/*! (3단계) 결과 4 페이지 */
 #result_4 {
+    display: none;
     text-align: center;
     margin: 50px auto;
 }
